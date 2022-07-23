@@ -1,0 +1,2 @@
+ docker run -v /Users/bfarr/projects/bhp/rest-to-mqtt/target/:/lcl --network=host -it --name myubi registry.access.redhat.com/ubi8/ubi
+mosquitto_sub -t iotdatatopic
